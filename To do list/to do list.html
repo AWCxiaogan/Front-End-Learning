@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>My to do list</title>
+
+		<link rel="stylesheet" href="to do list.css"/>
+	</head>
+	<body>
+		<div id="header">To Do List</div>
+		
+		<div id="container">
+
+				<div class="task-list" id="taskList">
+					<h3>Task List</h3>
+				</div>
+
+				<div class="task-list">
+					<h3>Add a task-list</h3>
+					<form id="todo-form">
+						<input type="text" placeholder="Title" />
+						<textarea placeholder="Description"></textarea>
+						<input type="text" id="datepicker" placeholder="Due Date (dd/mm/yyy)"/>
+						<input type="button" class="btn" value="Add Task" onclick="add()"/>
+					</form>
+					<input type="button" class="btn" value="Clear Data" onclick="clr()"/>
+				</div>
+
+		</div>
+		<script type="text/javascript" src="to do list.js"></script>
+	</body>
+</html>
+

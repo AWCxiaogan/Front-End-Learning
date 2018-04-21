@@ -1,0 +1,50 @@
+body{
+	background-color: #345 !important;
+	border:0 !important;
+}
+
+#header{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 15px;
+	color:#fff;
+}
+
+#container{
+	margin:0 auto;
+	width:860px;
+	/* min-height: 100%; */
+	display: flex;
+	background-color: transparent;
+	border: 0;
+
+}
+
+.task-list{
+	width:280px;
+	
+	margin:15px auto;
+	background-color: #eee;
+}
+
+.task-list>h3{
+	text-align:center;
+}
+
+.task-list input, .task-list textarea{
+	width:250px;
+	margin:1px 5px;
+}
+
+.task-list input{
+	height: 30px;
+}
+
+.task-list textarea{
+	width:248px;
+	height:50px;
+}
+.task-list input[type="button"]{
+	width:100px;
+	margin:5px;
+}
